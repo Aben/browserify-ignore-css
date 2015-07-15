@@ -1,6 +1,6 @@
 {
   "name": "browserify-ignore-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Browserify plugin for ignore CSS files",
   "main": "index.js",
   "scripts": {
