@@ -6,7 +6,6 @@ module.exports = function (b, opts) {
 	function addHooks(){
 		b.pipeline.get('deps').push(
 			through.obj(function (row, enc, next) {
-				console.log(row.file)
 				if (/\.css$/i.test(row.file)) {
 					row.source = ''
 				}
